@@ -1,11 +1,11 @@
 .l-aside{
     width: 20%;
     min-height: 800px;
-    background-color:$main-color ;
+    background-color:red ;
     .l-aside-prim{
         margin-top: 0px;
         width: 90%;
-        min-height: 400px;
+        min-height: 300px;
         background-color:$main-color ;
         margin-left: auto;
         margin-right: auto;
@@ -25,6 +25,48 @@
             
         }
 
+    }
+    .l-aside-sec{
+        margin-top: 0px;
+        width: 90%;
+        min-height: 250px;
+        background-color:$main-color ;
+        margin-left: auto;
+        margin-right: auto;
+        ul{
+            list-style: none;
+            a{
+            display: block;
+            color: black;
+            
+            padding: 2px;
+            margin-bottom: 5px;
+            margin-left: auto;
+            margin-right: auto; 
+            text-decoration: none; 
+            }     
+        }
+        .mytags{
+            background-color: $main-color ;
+            margin-left: auto;
+            margin-right: auto; 
+        }
+    }
+    .l-aside-ter{
+        margin-top: 0px;
+        width: 98%;
+        min-height: 400px;
+        background-color:blue;
+        margin-left: auto;
+        margin-right: auto;
+        .imgshop{
+            height: 50%;
+            width: 100%;
+        }
+        a{
+            text-decoration: none;
+        }
+        
     }
 
 }
