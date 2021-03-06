@@ -1,5 +1,19 @@
-nav {
-  background-color: peru;
-  margin: 10px;
+body {
+  margin: 0%;
+  padding: 0%;
+}
+
+.d-flex {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.w-100 {
+  width: 100%;
+}
+
+.w-50 {
+  width: 50%;
 }
 /*# sourceMappingURL=style.css.map */
