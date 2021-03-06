@@ -16,4 +16,25 @@ body {
 .w-50 {
   width: 50%;
 }
+
+.a-items-center {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.jc-flex-end {
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+.b-radius-100 {
+  border-radius: 100%;
+}
+
+nav {
+  border: solid 1px red;
+  height: 70px;
+}
 /*# sourceMappingURL=style.css.map */
