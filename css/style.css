@@ -4,6 +4,13 @@ body {
   background-color: #F0F0F0;
 }
 
+.f-dir-column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
 .d-flex {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -35,7 +42,6 @@ body {
 }
 
 nav {
-  border: solid 1px red;
   height: 70px;
 }
 
@@ -43,6 +49,8 @@ nav {
   width: 20%;
   min-height: 800px;
   background-color: #F0F0F0;
+  /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
+  display: none;
 }
 
 .l-aside .l-aside-prim {
@@ -123,5 +131,43 @@ nav {
 
 .l-aside .l-aside-ter .imgshop-text {
   padding: 1rem;
+}
+
+/*Tablet version*/
+@media screen and (min-width: 768px) {
+  .l-aside {
+    display: block;
+  }
+}
+
+/*END Tablet version*/
+/*Card Principal*/
+.main-card {
+  background: white;
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
+}
+
+.main-card .head-img {
+  width: auto;
+  background-image: url(https://picsum.photos/800/300);
+  padding: 21%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.main-card .main-text .card-comment {
+  background-color: lightgray;
+  width: 98%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-color: white;
+  margin-top: 10px;
+  border-top: solid 1px lightgray;
+  border-bottom: solid 1px lightgray;
 }
 /*# sourceMappingURL=style.css.map */

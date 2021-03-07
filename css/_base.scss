@@ -4,6 +4,9 @@ body{
     background-color:$main-color;   
 }
 
+.f-dir-column{
+    flex-direction: column;
+}
 
 .d-flex{
     display: flex;
