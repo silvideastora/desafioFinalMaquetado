@@ -42,7 +42,7 @@ nav {
 .l-aside {
   width: 20%;
   min-height: 800px;
-  background-color: red;
+  background-color: #F0F0F0;
 }
 
 .l-aside .l-aside-prim {
@@ -98,20 +98,30 @@ nav {
 }
 
 .l-aside .l-aside-ter {
-  margin-top: 0px;
+  border: 1px solid #F0F0F0;
+  border-radius: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   width: 98%;
   min-height: 400px;
-  background-color: blue;
-  margin-left: auto;
-  margin-right: auto;
+  cursor: pointer;
 }
 
 .l-aside .l-aside-ter .imgshop {
-  height: 50%;
   width: 100%;
+  padding-top: 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-radius: 1rem;
 }
 
-.l-aside .l-aside-ter a {
-  text-decoration: none;
+.l-aside .l-aside-ter .imgshop-text {
+  padding: 1rem;
 }
 /*# sourceMappingURL=style.css.map */

@@ -1,7 +1,7 @@
 .l-aside{
     width: 20%;
     min-height: 800px;
-    background-color:red ;
+    background-color: $main-color ;
     .l-aside-prim{
         margin-top: 0px;
         width: 90%;
@@ -53,21 +53,26 @@
         }
     }
     .l-aside-ter{
-        margin-top: 0px;
+        border: 1px solid $main-color ;
+        border-radius: 1rem;
+        display: flex;
+        flex-direction: column;
         width: 98%;
-        min-height: 400px;
-        background-color:blue;
-        margin-left: auto;
-        margin-right: auto;
+        min-height: 400px; 
+        cursor: pointer;
         .imgshop{
-            height: 50%;
             width: 100%;
+            padding-top: 100%;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            border-radius: 1rem;   
         }
-        a{
-            text-decoration: none;
-        }
-        
+        .imgshop-text{
+            padding: 1rem;
+        }    
     }
+    
 
 }
 
