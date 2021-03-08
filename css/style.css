@@ -3,8 +3,18 @@ body {
   padding: 0%;
   background-color: #EEF0F1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+<<<<<<< HEAD
+=======
+  font-size: 0.9rem;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
 }
 
+/*.main{
+    margin-left: 80px;
+    margin-right: 80px;
+    
+
+}*/
 .f-dir-column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -64,11 +74,20 @@ body {
   border-radius: 100%;
 }
 
+<<<<<<< HEAD
 #right-aside {
   display: none;
 }
 
 #right-aside .right-cards {
+=======
+.gray-comments {
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+.right-cards {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   background-color: #F9FAFA;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: -webkit-box;
@@ -86,12 +105,20 @@ body {
   margin: 15px 15px 15px 15px;
 }
 
+<<<<<<< HEAD
 #right-aside .right-cards .card-footer {
+=======
+.right-cards .card-footer {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   text-align: center;
   border-bottom: none;
 }
 
+<<<<<<< HEAD
 #right-aside .right-cards header {
+=======
+.right-cards header {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   background-color: #F9FAFA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -111,6 +138,7 @@ body {
   border-radius: 12px;
 }
 
+<<<<<<< HEAD
 #right-aside .right-cards header a {
   color: #363D44;
 }
@@ -124,6 +152,21 @@ body {
 }
 
 #right-aside .right-cards ul {
+=======
+.right-cards header a {
+  color: #363D44;
+}
+
+.right-cards header:hover a {
+  color: #3B49DF;
+}
+
+.right-cards a {
+  text-decoration: none;
+}
+
+.right-cards ul {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   list-style: none;
   padding: 0px;
   -webkit-box-sizing: border-box;
@@ -131,11 +174,16 @@ body {
   display: block;
 }
 
+<<<<<<< HEAD
 #right-aside .right-cards ul li {
+=======
+.right-cards ul li {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   border-bottom: 1px solid #eef0f1;
   padding: 8px 20px;
 }
 
+<<<<<<< HEAD
 #right-aside .right-cards ul li:hover {
   background-color: #F9FAFA;
 }
@@ -156,6 +204,20 @@ body {
 }
 
 /*END Desktop version*/
+=======
+.right-cards ul li:hover {
+  background-color: #F9FAFA;
+}
+
+.right-cards ul li:hover p {
+  color: #3B49DF;
+}
+
+.right-cards ul li span {
+  font-size: smaller;
+}
+
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
 nav {
   height: 70px;
   background-color: white;
@@ -197,7 +259,10 @@ nav .righthead img {
   width: 20%;
   min-height: 800px;
   background-color: #EEF0F1;
+<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+=======
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
   display: none;
 }
@@ -207,6 +272,11 @@ nav .righthead img {
   width: 99%;
   min-height: 300px;
   background-color: #EEF0F1;
+<<<<<<< HEAD
+=======
+  margin-left: auto;
+  margin-right: auto;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
 }
 
 .l-aside .l-aside-prim ul {
@@ -228,7 +298,11 @@ nav .righthead img {
   width: 90%;
   min-height: 250px;
   background-color: #EEF0F1;
+<<<<<<< HEAD
   margin-left: 10px;
+=======
+  margin-left: auto;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   margin-right: auto;
 }
 
@@ -249,6 +323,10 @@ nav .righthead img {
 
 .l-aside .l-aside-sec .mytags {
   background-color: #EEF0F1;
+<<<<<<< HEAD
+=======
+  margin-left: auto;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   margin-right: auto;
   margin-bottom: 0px;
 }
