@@ -180,6 +180,7 @@ body {
 @media screen and (min-width: 1024px) {
   #right-aside {
     display: block;
+    margin-right: 5vw;
   }
 }
 
@@ -252,8 +253,17 @@ nav .righthead button {
 }
 
 /*END Tablet version*/
+/*Desktop version*/
+@media screen and (min-width: 1024px) {
+  #user-nav-img {
+    margin-right: 6vw;
+  }
+}
+
+/*END Desktop version*/
 .l-aside {
-  width: 20%;
+  margin-left: 5vw;
+  max-width: 50%;
   min-height: 800px;
   background-color: #EEF0F1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -453,6 +463,9 @@ nav .righthead button {
 
 /*Tablet version*/
 @media screen and (min-width: 768px) {
+  main {
+    margin-right: 8px;
+  }
   .main-card .head-img {
     padding: 0%;
     height: 300px;
@@ -467,7 +480,7 @@ nav .righthead button {
   #second-navbar button {
     margin: 0px 3px;
     border: none;
-    width: 50px;
+    width: 60px;
     height: 40px;
     border-radius: 5px 5px 0px 0px;
     font-size: 1rem;

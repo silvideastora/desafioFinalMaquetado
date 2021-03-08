@@ -78,6 +78,19 @@ nav{
     #search-icon{
         display: none;
     }
+    
 }
 
 /*END Tablet version*/
+
+/*Desktop version*/
+
+
+@media screen and (min-width: 1024px){
+    #user-nav-img{
+        margin-right: 6vw;
+    }
+    
+}
+
+/*END Desktop version*/
