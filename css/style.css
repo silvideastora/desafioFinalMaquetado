@@ -112,15 +112,15 @@ nav .righthead img {
 
 .l-aside .l-aside-prim {
   margin-top: 0px;
-  width: 90%;
+  width: 99%;
   min-height: 300px;
   background-color: #EEF0F1;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .l-aside .l-aside-prim ul {
   list-style: none;
+  -webkit-padding-start: 8px;
+          padding-inline-start: 8px;
 }
 
 .l-aside .l-aside-prim ul a {
@@ -128,8 +128,6 @@ nav .righthead img {
   color: black;
   padding: 2px;
   margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
   text-decoration: none;
 }
 
@@ -138,27 +136,27 @@ nav .righthead img {
   width: 90%;
   min-height: 250px;
   background-color: #EEF0F1;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: auto;
 }
 
 .l-aside .l-aside-sec ul {
   list-style: none;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
 }
 
 .l-aside .l-aside-sec ul a {
   display: block;
   color: black;
   margin-bottom: 5px;
-  padding: 2px;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: auto;
   text-decoration: none;
 }
 
 .l-aside .l-aside-sec .mytags {
   background-color: #EEF0F1;
-  margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
 }
@@ -242,7 +240,20 @@ nav .righthead img {
   border-bottom: solid 1px lightgray;
 }
 
-<<<<<<< HEAD
+.save-button {
+  height: 30px;
+  height: 30px;
+}
+
+/*Tablet version*/
+@media screen and (min-width: 768px) {
+  .main-card .head-img {
+    padding: 0%;
+    height: 300px;
+  }
+}
+
+/*END Tablet version*/
 footer {
   background-color: #D8DBDF;
   position: relative;
@@ -297,20 +308,4 @@ footer div p b {
   fill: currentColor;
   color: #363D44;
 }
-=======
-.save-button {
-  height: 30px;
-  height: 30px;
-}
-
-/*Tablet version*/
-@media screen and (min-width: 768px) {
-  .main-card .head-img {
-    padding: 0%;
-    height: 300px;
-  }
-}
-
-/*END Tablet version*/
->>>>>>> 719637271363e45fd37d3dd5b62d0b60d79312c8
 /*# sourceMappingURL=style.css.map */
