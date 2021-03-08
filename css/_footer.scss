@@ -1,4 +1,6 @@
 footer {
+    margin-top: 30px;
+    display: none;
     background-color: $footer-bg-color;
     position: relative;
     box-sizing: border-box;
@@ -37,3 +39,14 @@ footer {
     
 
 }
+
+/*Tablet version*/
+
+
+@media screen and (min-width: 768px){
+    footer{
+        display: block;
+    }
+}
+
+/*END Tablet version*/
