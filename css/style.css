@@ -230,6 +230,15 @@ nav .righthead button {
   height: 40px;
   text-decoration: none;
   font-size: 1rem;
+  cursor: pointer;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
+}
+
+nav .righthead button:hover {
+  background-color: #4405C8;
+  -webkit-transition-duration: 0.3s;
+          transition-duration: 0.3s;
 }
 
 .fa-bars {
