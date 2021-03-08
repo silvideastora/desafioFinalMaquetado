@@ -51,13 +51,20 @@
                 border-bottom: 1px solid #eef0f1;
                 padding:8px 20px;
                 &:hover{
-                    background-color: #F9FAFA;
+                    background-color: white;
                     p{
                     color: $highlight-color;
                     }
                 }
                 span{
                     font-size: smaller;
+                    button{
+                        background-color: $saved-active;
+                        border-color: $saved-active;
+                        color: #F9FAFA;
+                        border-radius: 5px;
+                        font-size: 0.875rem;
+                    }
                 }
                 
             }
