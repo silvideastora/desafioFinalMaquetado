@@ -1,7 +1,7 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
 }
 
 .f-dir-column {
@@ -25,6 +25,18 @@ body {
   width: 50%;
 }
 
+.m-10 {
+  margin: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.m-sides-10 {
+  margin: 0px 10px;
+}
+
 .a-items-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -37,18 +49,63 @@ body {
           justify-content: flex-end;
 }
 
+.jc-space-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .b-radius-100 {
   border-radius: 100%;
 }
 
+.gray-comments {
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
 nav {
   height: 70px;
+  background-color: white;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+nav .lefthead i {
+  cursor: pointer;
+  margin-left: 25px;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+nav .lefthead img {
+  cursor: pointer;
+}
+
+nav .lefthead input {
+  margin-left: 10px;
+  padding: 6px;
+  border: 1px solid #4D5760;
+  border-radius: 5px;
+  margin-right: 16px;
+  font-size: 19px;
+}
+
+nav .righthead i {
+  cursor: pointer;
+  margin-right: 20px;
+  font-size: 25px;
+}
+
+nav .righthead img {
+  cursor: pointer;
+  margin-right: 20px;
 }
 
 .l-aside {
   width: 20%;
   min-height: 800px;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
   display: none;
 }
@@ -57,7 +114,7 @@ nav {
   margin-top: 0px;
   width: 90%;
   min-height: 300px;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
   margin-left: auto;
   margin-right: auto;
 }
@@ -80,7 +137,7 @@ nav {
   margin-top: 0px;
   width: 90%;
   min-height: 250px;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
   margin-left: auto;
   margin-right: auto;
 }
@@ -92,21 +149,22 @@ nav {
 .l-aside .l-aside-sec ul a {
   display: block;
   color: black;
-  padding: 2px;
   margin-bottom: 5px;
+  padding: 2px;
   margin-left: auto;
   margin-right: auto;
   text-decoration: none;
 }
 
 .l-aside .l-aside-sec .mytags {
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 0px;
 }
 
 .l-aside .l-aside-ter {
-  border: 1px solid #F0F0F0;
+  border: 1px solid #EEF0F1;
   border-radius: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -164,10 +222,95 @@ nav {
   margin-right: auto;
 }
 
+.main-card .main-text .card-post .user-card-post div i {
+  font-size: 1.7rem;
+  padding: 10px;
+}
+
+.main-card .main-text .card-post .card-title p, .main-card .main-text .card-post .card-title h3 {
+  margin-top: -5px;
+}
+
+.main-card .main-text .card-post .card-title p {
+  margin-top: -10px;
+}
+
 .card {
   background-color: white;
-  margin-top: 10px;
+  margin-top: 6px;
   border-top: solid 1px lightgray;
   border-bottom: solid 1px lightgray;
 }
+
+<<<<<<< HEAD
+footer {
+  background-color: #D8DBDF;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div a {
+  color: #363D44;
+  margin: 3px 6px;
+  text-decoration: none;
+}
+
+footer div p {
+  color: #4D5760;
+}
+
+footer div p b {
+  color: #363D44;
+}
+
+.perezoso {
+  position: absolute;
+  width: 52px;
+  top: -2px;
+  right: 38px;
+}
+
+.social-media img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  fill: currentColor;
+  color: #363D44;
+}
+=======
+.save-button {
+  height: 30px;
+  height: 30px;
+}
+
+/*Tablet version*/
+@media screen and (min-width: 768px) {
+  .main-card .head-img {
+    padding: 0%;
+    height: 300px;
+  }
+}
+
+/*END Tablet version*/
+>>>>>>> 719637271363e45fd37d3dd5b62d0b60d79312c8
 /*# sourceMappingURL=style.css.map */

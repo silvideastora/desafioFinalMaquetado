@@ -2,6 +2,7 @@
     width: 20%;
     min-height: 800px;
     background-color: $main-color ;
+    font-family: $font-family ;
     /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
     display: none;
     .l-aside-prim{
@@ -15,8 +16,7 @@
             list-style: none;
             a{
             display: block;
-            color: black;
-            
+            color: black; 
             padding: 2px;
             margin-bottom: 5px;
             margin-left: auto;
@@ -35,14 +35,14 @@
         background-color:$main-color ;
         margin-left: auto;
         margin-right: auto;
+        
         ul{
             list-style: none;
             a{
             display: block;
             color: black;
-            
-            padding: 2px;
             margin-bottom: 5px;
+            padding: 2px;
             margin-left: auto;
             margin-right: auto; 
             text-decoration: none; 
@@ -52,6 +52,8 @@
             background-color: $main-color ;
             margin-left: auto;
             margin-right: auto; 
+            margin-bottom: 0px;
+            
         }
     }
     .l-aside-ter{
@@ -88,5 +90,6 @@
 }
 
 /*END Tablet version*/
+
 
     
