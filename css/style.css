@@ -2,6 +2,11 @@ body {
   margin: 0%;
   padding: 0%;
   background-color: #EEF0F1;
+<<<<<<< HEAD
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.9rem;
+=======
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
 }
 
 .f-dir-column {
@@ -33,6 +38,10 @@ body {
   margin-top: 10px;
 }
 
+.ml-40 {
+  margin-left: 40px;
+}
+
 .m-sides-10 {
   margin: 0px 10px;
 }
@@ -57,11 +66,6 @@ body {
 
 .b-radius-100 {
   border-radius: 100%;
-}
-
-.gray-comments {
-  opacity: 0.5;
-  font-size: 1rem;
 }
 
 nav {
@@ -105,22 +109,30 @@ nav .righthead img {
   width: 20%;
   min-height: 800px;
   background-color: #EEF0F1;
+<<<<<<< HEAD
+=======
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
   /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
   display: none;
 }
 
 .l-aside .l-aside-prim {
   margin-top: 0px;
-  width: 90%;
+  width: 99%;
   min-height: 300px;
   background-color: #EEF0F1;
+<<<<<<< HEAD
   margin-left: auto;
   margin-right: auto;
+=======
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
 }
 
 .l-aside .l-aside-prim ul {
   list-style: none;
+  -webkit-padding-start: 8px;
+          padding-inline-start: 8px;
 }
 
 .l-aside .l-aside-prim ul a {
@@ -128,8 +140,6 @@ nav .righthead img {
   color: black;
   padding: 2px;
   margin-bottom: 5px;
-  margin-left: auto;
-  margin-right: auto;
   text-decoration: none;
 }
 
@@ -138,27 +148,35 @@ nav .righthead img {
   width: 90%;
   min-height: 250px;
   background-color: #EEF0F1;
+<<<<<<< HEAD
   margin-left: auto;
+=======
+  margin-left: 10px;
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
   margin-right: auto;
 }
 
 .l-aside .l-aside-sec ul {
   list-style: none;
+  -webkit-padding-start: 10px;
+          padding-inline-start: 10px;
 }
 
 .l-aside .l-aside-sec ul a {
   display: block;
   color: black;
   margin-bottom: 5px;
-  padding: 2px;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: auto;
   text-decoration: none;
 }
 
 .l-aside .l-aside-sec .mytags {
   background-color: #EEF0F1;
+<<<<<<< HEAD
   margin-left: auto;
+=======
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
   margin-right: auto;
   margin-bottom: 0px;
 }
@@ -220,6 +238,8 @@ nav .righthead img {
   width: 98%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .main-card .main-text .card-post .user-card-post div i {
@@ -235,15 +255,61 @@ nav .righthead img {
   margin-top: -10px;
 }
 
-.card {
-  background-color: white;
-  margin-top: 6px;
-  border-top: solid 1px lightgray;
-  border-bottom: solid 1px lightgray;
+.post-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
 }
 
-<<<<<<< HEAD
+.post-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.time-text {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.post-icon {
+  font-size: 0.9px;
+}
+
+.save-button {
+  height: 35px;
+  width: 55px;
+  border: none;
+  border-radius: 10%;
+  font-size: 0.9rem;
+  background-color: #D2D6DB;
+  color: #363D44;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.save-button:hover {
+  background-color: #B5BDC4;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+/*Tablet version*/
+@media screen and (min-width: 768px) {
+  .main-card .head-img {
+    padding: 0%;
+    height: 300px;
+  }
+}
+
+/*END Tablet version*/
 footer {
+<<<<<<< HEAD
+  margin-top: 30px;
+  display: none;
+=======
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
   background-color: #D8DBDF;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -297,20 +363,16 @@ footer div p b {
   fill: currentColor;
   color: #363D44;
 }
-=======
-.save-button {
-  height: 30px;
-  height: 30px;
-}
+<<<<<<< HEAD
 
 /*Tablet version*/
 @media screen and (min-width: 768px) {
-  .main-card .head-img {
-    padding: 0%;
-    height: 300px;
+  footer {
+    display: block;
   }
 }
 
 /*END Tablet version*/
->>>>>>> 719637271363e45fd37d3dd5b62d0b60d79312c8
+=======
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
 /*# sourceMappingURL=style.css.map */
