@@ -1,38 +1,19 @@
-<<<<<<< HEAD
 #right-aside{
     display: none;
     .right-cards{
         background-color: $asideRight-bg-color;
         font-family: $font-family;
-=======
-.right-cards{
-    background-color: $asideRight-bg-color;
-    font-family: $font-family;
-    display: flex;
-    flex-direction: column;
-    box-sizing: border-box;
-    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
-    border-radius: 12px;
-    margin: 15px 15px 15px 15px;
-    .img-card{
-        height: 115px;
-        max-width: 100%;
-        border-radius: 6px;
-    }
-    .card-footer{
-        text-align: center;
-        border-bottom: none;
-    }
-
-    header{
-        background-color: #F9FAFA;
->>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
         display: flex;
         flex-direction: column;
         box-sizing: border-box;
         box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
         border-radius: 12px;
         margin: 15px 15px 15px 15px;
+        .img-card{
+            height: 115px;
+            max-width: 100%;
+            border-radius: 6px;
+        }
         .card-footer{
             text-align: center;
             border-bottom: none;
@@ -51,7 +32,6 @@
                 color: $inactive-gray;
             }
             &:hover{
-<<<<<<< HEAD
                 a{
                     color: $highlight-color;   
                 }    
@@ -80,23 +60,6 @@
                     font-size: smaller;
                 }
                 
-=======
-                background-color: white;
-                p{
-                color: $highlight-color;
-                }
-            }
-            span{
-                font-size: smaller;
-                button{
-                    background-color: $saved-active;
-                    border-color: $saved-active;
-                    color: #F9FAFA;
-                    border-radius: 5px;
-                    font-size: 0.875rem;
-
-                }
->>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
             }
         }
     
@@ -113,7 +76,4 @@
     }
 }
 
-<<<<<<< HEAD
 /*END Desktop version*/
-=======
->>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
