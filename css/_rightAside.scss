@@ -7,6 +7,11 @@
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     border-radius: 12px;
     margin: 15px 15px 15px 15px;
+    .img-card{
+        height: 115px;
+        max-width: 100%;
+        border-radius: 6px;
+    }
     .card-footer{
         text-align: center;
         border-bottom: none;
@@ -44,16 +49,25 @@
             border-bottom: 1px solid #eef0f1;
             padding:8px 20px;
             &:hover{
-                background-color: #F9FAFA;
+                background-color: white;
                 p{
                 color: $highlight-color;
                 }
             }
             span{
                 font-size: smaller;
+                button{
+                    background-color: $saved-active;
+                    border-color: $saved-active;
+                    color: #F9FAFA;
+                    border-radius: 5px;
+                    font-size: 0.875rem;
+
+                }
             }
             
         }
     }
 
 }
+
