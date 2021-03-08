@@ -45,6 +45,14 @@ nav {
   height: 70px;
 }
 
+nav i {
+  cursor: pointer;
+}
+
+nav img {
+  cursor: pointer;
+}
+
 .l-aside {
   width: 20%;
   min-height: 800px;
