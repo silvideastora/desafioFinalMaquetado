@@ -1,13 +1,13 @@
 nav{
-    height: 70px;;
+    height: 55px;;
     background-color:white ;
     font-family: $font-family ;
+    border-bottom: solid 1px lightgray;
     
 
     .lefthead{
         i{
             cursor: pointer;
-            margin-left: 25px;
             margin-right: 20px;
             font-size: 25px;
            
@@ -17,35 +17,67 @@ nav{
             cursor: pointer;
             
         }
-        input{
+        #search-bar{
             margin-left: 10px;
             padding: 6px;
             border: 1px solid $inactive-gray-light;
             border-radius: 5px;
-            
             margin-right: 16px;
             font-size: 19px;
             
-        }
-        
-            
+        }  
           
 
     }
     .righthead{
         i{
             cursor: pointer;
-            margin-right: 20px;
             font-size: 25px;
-            
         }
+        
         img{
-            cursor: pointer;
-            margin-right: 20px;
+            cursor: pointer;  
             
-                
         }
+        button{
+            background-color: #5C1CE3;
+            border: none;
+            border-radius: 5px;
+            color: white;
+            font-weight: bold;
+            width: 120px;
+            height: 40px;
+            text-decoration: none;
+            font-size: 1rem;
+        }
+        
 
     }
-       
+    
+
 }
+
+.fa-bars{
+    display: block;
+}
+
+
+/*Tablet version*/
+
+
+@media screen and (min-width: 768px){
+    .fa-bars{
+        display: none;
+    }
+    #search-bar{
+        display: inline-block;
+    }
+    #search-button{
+        display: block;
+    }
+    #search-icon{
+        display: none;
+    }
+}
+
+/*END Tablet version*/

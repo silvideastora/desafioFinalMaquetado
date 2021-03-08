@@ -17,18 +17,19 @@
 
     <!--header-->
     <header>
-        <nav  class="d-flex w-100">
-            <div class= " lefthead w-50 d-flex a-items-center"> 
-                <i class="fas fa-bars"></i>
-                <img src="assets/icons/devIcon.svg" alt="" style="height: 50px;">
-                <input type="text" placeholder="Search..">
+        <nav  class="d-flex w-100" >
+            <div class= " lefthead w-100 d-flex a-items-center"> 
+                <i class="fas fa-bars ml-20"></i>
+                <img src="assets/icons/devIcon.svg" alt="" style="height: 50px;" class="ml-20 mr-20">
+                <input style="width: 300px;" class="d-none" id="search-bar" type="text" placeholder="Search..">
             </div>
-            <div class=" righthead w-50 d-flex a-items-center jc-flex-end">
-                <i class="fas fa-search"></i>
-                <img src="assets/icons/notifications.svg" alt="">
-                <i class="far fa-bell"></i>
-                <img class="b-radius-100" src="assets/images/usuarioLogNav.webp" alt="" style="height: 40px; margin-right: 10%;"
-                >
+            <div class=" righthead w-50 d-flex a-items-center jc-flex-end" id="profile-img">
+                <button class="m-sides-10 d-none" id="search-button">Write a post</button>
+                <i class="fas fa-search mr-20" id="search-icon"></i>
+                <img src="assets/icons/notifications.svg" class="mr-20" alt="">
+                <i class="far fa-bell mr-20"></i>
+                <div><img  class="b-radius-100 mr-20" src="assets/images/usuarioLogNav.webp" alt="" style="height: 40px;"></div>
+                
                 
             </div>
         </nav>  
@@ -107,11 +108,22 @@
         <section class="d-flex w-100 f-dir-column">
             <!--Post titles-->
             <nav  class="d-flex w-100" style="background-color:#EEF0F1">
-                <div class= "w-50 d-flex a-items-center">
+                <div class= "w-50 d-flex a-items-center m-sides-10">
                     <h3>Posts</h3>
                 </div> 
-                <div class=" listbox w-50 d-flex a-items-center jc-flex-end">   
-                    <select name="Feed" id="">
+                <div class=" listbox w-100 d-flex a-items-center jc-flex-end m-sides-10">
+                    <!--Segunda navbar-->
+                    <div id="second-navbar" class="d-none">
+                        <button>Feed</button>
+                        <button>Week</button>
+                        <button>Month</button>
+                        <button>Year</button>
+                        <button>Infinity</button>
+                        <button>Latest</button>
+                    </div>
+                    
+                    
+                    <select class="select-button" name="Feed">
                         <option value="A">
                             Feed
                         </option>
@@ -149,7 +161,7 @@
                             <div class="d-flex a-items-center">
                                 <p>
                                     Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="time-text">Mar 5 (2 days ago)</span><br>
                                     <span class="post-title">Lorem ipsum dolor sit.</span>
                                     <br>
                                     <span class="time-text">#lorem  #lorem  #lorem</span>
@@ -161,11 +173,11 @@
                         </div>
 
                         <div class="d-flex jc-space-b ml-40">
-                            <div class="d-flex a-items-center" >
-                                <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
+                            <div class="d-flex a-items-center">
+                            <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
                                 <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
+                                    <span>39 <span class="reactions">comments</span> </span>
                             </div>
                             <div class="d-flex a-items-center">
                                 <span class="time-text">3 min read </span>
@@ -180,7 +192,7 @@
                             <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
                         </div>
                         <div>
-                            <p>Ibrahim Cesar <span></span>2 days ago</span> 
+                            <p>Ibrahim Cesar <span class="time-text">2 days ago</span></span> 
                                 <br>
                                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit totam pariatur aliquam perferendis quasi corporis doloribus dolor dignissimos esse excepturi porro earum enim id eius reprehenderit doloremque, fugit ratione beatae veritatis unde iusto saepe? Doloribus, quia accusantium? In molestias tempora, autem eum dignissimos quisquam facere libero aperiam adipisci omnis?
                                 <br><br>
@@ -209,7 +221,7 @@
                             <div class="d-flex a-items-center">
                                 <p>
                                     Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
                                     <span class="post-title">Lorem ipsum dolor sit.</span>
                                     <br>
                                     <span class="time-text">#lorem  #lorem  #lorem</span>
@@ -223,9 +235,9 @@
                         <div class="d-flex jc-space-b ml-40">
                             <div class="d-flex a-items-center" >
                                 <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
+                                    <span>76 <span class="reactions">reactions</span> </span>
                                 <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
+                                    <span>39 <span class="reactions">comments</span> </span>
                             </div>
                             <div class="d-flex a-items-center">
                                 <span class="time-text">3 min read </span>
@@ -252,7 +264,7 @@
                             <div class="d-flex a-items-center">
                                 <p>
                                     Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
                                     <span class="post-title">Lorem ipsum dolor sit.</span>
                                     <br>
                                     <span class="time-text">#lorem  #lorem  #lorem</span>
@@ -266,9 +278,219 @@
                         <div class="d-flex jc-space-b ml-40">
                             <div class="d-flex a-items-center" >
                                 <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
+                                    <span>76 <span class="reactions">reactions</span> </span>
                                 <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#lorem  #lorem  #lorem</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#lorem  #lorem  #lorem</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#lorem  #lorem  #lorem</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#lorem  #lorem  #lorem</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#lorem  #lorem  #lorem</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
                             </div>
                             <div class="d-flex a-items-center">
                                 <span class="time-text">3 min read </span>
@@ -281,221 +503,6 @@
                 </div>
             </div>
             
-            <!--Normal posts-->
-            <div class="main-card d-flex w-100 f-dir-column mt-10">
-                <div class="main-text">
-                    <div class="card-post">
-                        <!--User post that comment-->
-                        <div class="user-card-post d-flex">
-                            
-                            <div class="d-flex mt-10">
-                                
-                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <p>
-                                    Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
-                                    <span class="post-title">Lorem ipsum dolor sit.</span>
-                                    <br>
-                                    <span class="time-text">#lorem  #lorem  #lorem</span>
-                                    <br>
-                                </p>
-                            
-    
-                            </div>
-                        </div>
-
-                        <div class="d-flex jc-space-b ml-40">
-                            <div class="d-flex a-items-center" >
-                                <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
-                                <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <span class="time-text">3 min read </span>
-                                <button class="save-button m-10">Save</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-
-            <!--Normal posts-->
-            <div class="main-card d-flex w-100 f-dir-column mt-10">
-                <div class="main-text">
-                    <div class="card-post">
-                        <!--User post that comment-->
-                        <div class="user-card-post d-flex">
-                            
-                            <div class="d-flex mt-10">
-                                
-                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <p>
-                                    Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
-                                    <span class="post-title">Lorem ipsum dolor sit.</span>
-                                    <br>
-                                    <span class="time-text">#lorem  #lorem  #lorem</span>
-                                    <br>
-                                </p>
-                            
-    
-                            </div>
-                        </div>
-
-                        <div class="d-flex jc-space-b ml-40">
-                            <div class="d-flex a-items-center" >
-                                <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
-                                <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <span class="time-text">3 min read </span>
-                                <button class="save-button m-10">Save</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-
-            <!--Normal posts-->
-            <div class="main-card d-flex w-100 f-dir-column mt-10">
-                <div class="main-text">
-                    <div class="card-post">
-                        <!--User post that comment-->
-                        <div class="user-card-post d-flex">
-                            
-                            <div class="d-flex mt-10">
-                                
-                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <p>
-                                    Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
-                                    <span class="post-title">Lorem ipsum dolor sit.</span>
-                                    <br>
-                                    <span class="time-text">#lorem  #lorem  #lorem</span>
-                                    <br>
-                                </p>
-                            
-    
-                            </div>
-                        </div>
-
-                        <div class="d-flex jc-space-b ml-40">
-                            <div class="d-flex a-items-center" >
-                                <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
-                                <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <span class="time-text">3 min read </span>
-                                <button class="save-button m-10">Save</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-
-            <!--Normal posts-->
-            <div class="main-card d-flex w-100 f-dir-column mt-10">
-                <div class="main-text">
-                    <div class="card-post">
-                        <!--User post that comment-->
-                        <div class="user-card-post d-flex">
-                            
-                            <div class="d-flex mt-10">
-                                
-                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <p>
-                                    Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
-                                    <span class="post-title">Lorem ipsum dolor sit.</span>
-                                    <br>
-                                    <span class="time-text">#lorem  #lorem  #lorem</span>
-                                    <br>
-                                </p>
-                            
-    
-                            </div>
-                        </div>
-
-                        <div class="d-flex jc-space-b ml-40">
-                            <div class="d-flex a-items-center" >
-                                <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
-                                <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <span class="time-text">3 min read </span>
-                                <button class="save-button m-10">Save</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-
-            <!--Normal posts-->
-            <div class="main-card d-flex w-100 f-dir-column mt-10">
-                <div class="main-text">
-                    <div class="card-post">
-                        <!--User post that comment-->
-                        <div class="user-card-post d-flex">
-                            
-                            <div class="d-flex mt-10">
-                                
-                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <p>
-                                    Brandon Roberts                                    <br>
-                                    <span class="gray-comments time-text">Mar 5 (2 days ago)</span><br>
-                                    <span class="post-title">Lorem ipsum dolor sit.</span>
-                                    <br>
-                                    <span class="time-text">#lorem  #lorem  #lorem</span>
-                                    <br>
-                                </p>
-                            
-    
-                            </div>
-                        </div>
-
-                        <div class="d-flex jc-space-b ml-40">
-                            <div class="d-flex a-items-center" >
-                                <i class="far fa-heart m-10"></i>
-                                    <span>76 reactions</span>
-                                <i class="far fa-comment m-10"></i>
-                                    <span>39 comments</span>
-                            </div>
-                            <div class="d-flex a-items-center">
-                                <span class="time-text">3 min read </span>
-                                <button class="save-button m-10">Save</button>
-                            </div>
-                        </div>
-                        
-                    </div>
-                    
-                </div>
-            </div>
-
             
 
 
