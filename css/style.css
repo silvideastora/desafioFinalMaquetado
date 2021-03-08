@@ -92,7 +92,6 @@ body {
 }
 
 #right-aside .right-cards {
-  min-width: 300px;
   background-color: #F9FAFA;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: -webkit-box;
@@ -196,6 +195,9 @@ body {
 
 /*END Desktop version*/
 @media screen and (min-width: 1300px) {
+  .right-cards {
+    min-width: 300px;
+  }
   #right-aside {
     margin-right: 12vw;
   }
