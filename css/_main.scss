@@ -18,6 +18,10 @@
             width: 98%;
             margin-left: auto;
             margin-right: auto;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            
+            
         }
         
         .card-post{
@@ -41,16 +45,43 @@
     }
 }
 
-.card{
-    background-color: white;
-    margin-top: 6px;
-    border-top: solid 1px lightgray;
-    border-bottom: solid 1px lightgray;
+
+.post-title{
+    color: black;
+    font-size: 2rem;
+    font-weight: bolder;
+}
+
+.post-img{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+
+}
+
+.time-text{
+    font-size: 0.8rem;
+    opacity: 0.5;
+}
+.post-icon{
+    font-size: 0.9px;
+    
 }
 
 .save-button{
-    height: 30px;
-    height: 30px;
+    height: 35px;
+    width: 55px;
+    border: none;
+    border-radius: 10%;
+    font-size: 0.9rem;
+    background-color: $saveBtn-inactive-gray;
+    color: $inactive-gray;
+    cursor: pointer;
+    transition-duration: 0.2s;
+    &:hover{
+        background-color: $saveBtn-active-gray;
+        transition-duration: 0.2s;
+    }
 }
 
 
@@ -62,6 +93,7 @@
         .head-img{
             padding: 0%;
             height: 300px;
+            
         }
     }
 }

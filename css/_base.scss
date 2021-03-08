@@ -1,7 +1,9 @@
 body{
     margin: 0%;
     padding: 0%;
-    background-color:$main-color;   
+    background-color:$main-color;
+    font-family: $font-family; 
+    font-size: 0.9rem;
 }
 
 .f-dir-column{
@@ -27,6 +29,10 @@ body{
 .mt-10{
     margin-top: 10px;
 }
+.ml-40{
+    margin-left: 40px;
+}
+
 .m-sides-10{
     margin: 0px 10px;
 }
@@ -43,9 +49,4 @@ body{
 
 .b-radius-100{
     border-radius: 100%;
-}
-
-.gray-comments{
-    opacity: 0.5;
-    font-size: 1rem;
 }

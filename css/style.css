@@ -1,7 +1,9 @@
 body {
   margin: 0%;
   padding: 0%;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 0.9rem;
 }
 
 .f-dir-column {
@@ -33,6 +35,10 @@ body {
   margin-top: 10px;
 }
 
+.ml-40 {
+  margin-left: 40px;
+}
+
 .m-sides-10 {
   margin: 0px 10px;
 }
@@ -59,11 +65,6 @@ body {
   border-radius: 100%;
 }
 
-.gray-comments {
-  opacity: 0.5;
-  font-size: 1rem;
-}
-
 nav {
   height: 70px;
 }
@@ -79,7 +80,7 @@ nav img {
 .l-aside {
   width: 20%;
   min-height: 800px;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
   /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
   display: none;
 }
@@ -88,7 +89,7 @@ nav img {
   margin-top: 0px;
   width: 90%;
   min-height: 300px;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
   margin-left: auto;
   margin-right: auto;
 }
@@ -111,7 +112,7 @@ nav img {
   margin-top: 0px;
   width: 90%;
   min-height: 250px;
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
   margin-left: auto;
   margin-right: auto;
 }
@@ -131,13 +132,13 @@ nav img {
 }
 
 .l-aside .l-aside-sec .mytags {
-  background-color: #F0F0F0;
+  background-color: #EEF0F1;
   margin-left: auto;
   margin-right: auto;
 }
 
 .l-aside .l-aside-ter {
-  border: 1px solid #F0F0F0;
+  border: 1px solid #EEF0F1;
   border-radius: 1rem;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -193,6 +194,8 @@ nav img {
   width: 98%;
   margin-left: auto;
   margin-right: auto;
+  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .main-card .main-text .card-post .user-card-post div i {
@@ -208,16 +211,44 @@ nav img {
   margin-top: -10px;
 }
 
-.card {
-  background-color: white;
-  margin-top: 6px;
-  border-top: solid 1px lightgray;
-  border-bottom: solid 1px lightgray;
+.post-title {
+  color: black;
+  font-size: 2rem;
+  font-weight: bolder;
+}
+
+.post-img {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+}
+
+.time-text {
+  font-size: 0.8rem;
+  opacity: 0.5;
+}
+
+.post-icon {
+  font-size: 0.9px;
 }
 
 .save-button {
-  height: 30px;
-  height: 30px;
+  height: 35px;
+  width: 55px;
+  border: none;
+  border-radius: 10%;
+  font-size: 0.9rem;
+  background-color: #D2D6DB;
+  color: #363D44;
+  cursor: pointer;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
+}
+
+.save-button:hover {
+  background-color: #B5BDC4;
+  -webkit-transition-duration: 0.2s;
+          transition-duration: 0.2s;
 }
 
 /*Tablet version*/
@@ -225,6 +256,71 @@ nav img {
   .main-card .head-img {
     padding: 0%;
     height: 300px;
+  }
+}
+
+/*END Tablet version*/
+footer {
+  margin-top: 30px;
+  display: none;
+  background-color: #D8DBDF;
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+}
+
+footer div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+footer div a {
+  color: #363D44;
+  margin: 3px 6px;
+  text-decoration: none;
+}
+
+footer div p {
+  color: #4D5760;
+}
+
+footer div p b {
+  color: #363D44;
+}
+
+.perezoso {
+  position: absolute;
+  width: 52px;
+  top: -2px;
+  right: 38px;
+}
+
+.social-media img {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px;
+  fill: currentColor;
+  color: #363D44;
+}
+
+/*Tablet version*/
+@media screen and (min-width: 768px) {
+  footer {
+    display: block;
   }
 }
 
