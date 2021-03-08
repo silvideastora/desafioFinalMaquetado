@@ -21,12 +21,14 @@
             <div class= " lefthead w-50 d-flex a-items-center"> 
                 <i class="fas fa-bars"></i>
                 <img src="assets/icons/devIcon.svg" alt="" style="height: 50px;">
+                <input type="text" placeholder="Search..">
             </div>
             <div class=" righthead w-50 d-flex a-items-center jc-flex-end">
                 <i class="fas fa-search"></i>
                 <img src="assets/icons/notifications.svg" alt="">
-                <img src="assets/icons/homeIcon.svg" alt="">
-                <img class="b-radius-100" src="assets/images/usuarioLogNav.webp" alt="" style="height: 50px;">
+                <i class="far fa-bell"></i>
+                <img class="b-radius-100" src="assets/images/usuarioLogNav.webp" alt="" style="height: 40px; margin-right: 10%;"
+                >
             </div>
         </nav>
     </header>
@@ -34,18 +36,30 @@
 
     <!--Main-->
     <main class="d-flex">
+
+            
         <!--Aside Left-->
         <aside class="l-aside">
-            <div class="l-aside-prim">
+            <div class="l-aside-prim ">
                 <ul>
                     <li><a href="#"><img src="assets/icons/homeIcon.svg">  Home</a></li>
                     <li><a href="#"><img src="assets/icons/readingListIcon.svg">  Reading list</a></li>
-                    <li><a href="#"><img src="assets/icons/instagram.svg">  Listings</a></li>
+                    <li><a href="#"><span class="crayons-icon crayons-icon--default">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="24" height="24" class="">
+                            <g class="nc-icon-wrapper">
+                                <path fill="#FFD983" d="M36 4H14a4 4 0 00-4 4v24H8a4 4 0 000 8h24a4 4 0 004-4V12a4 4 0 000-8z" class=""></path>
+                                <path fill="#E39F3D" d="M12 14h24v-2H14l-2-1z" class=""></path>
+                                <path fill="#FFE8B6" d="M14 4a4 4 0 00-4 4v24.555A3.955 3.955 0 008 32a4 4 0 104 4V11.445c.59.344 1.268.555 2 .555a4 4 0 000-8z" class=""></path>
+                                <path fill="#C1694F" d="M16 8a2 2 0 11-4.001-.001A2 2 0 0116 8m-6 28a2 2 0 11-4.001-.001A2 2 0 0110 36m24-17a1 1 0 01-1 1H15a1 1 0 010-2h18a1 1 0 011 1m0 4a1 1 0 01-1 1H15a1 1 0 110-2h18a1 1 0 011 1m0 4a1 1 0 01-1 1H15a1 1 0 110-2h18a1 1 0 011 1m0 4a1 1 0 01-1 1H15a1 1 0 110-2h18a1 1 0 011 1" class=""></path>
+                            </g>
+                        </svg>           
+                    </span>Listings</a></li>
                     <li><a href="#"><img src="assets/icons/podcastIcon.svg">  Podcasts</a></li>
                     <li><a href="#"><img src="assets/icons/videosIcon.svg">  Videos</a></li>
                     <li><a href="#"><img src="assets/icons/tagsIcon.svg">  Tags</a></li>
                     <li style="margin-top: 10px; margin-left: 30px;">More...</a></li>
                 </ul>
+                
             </div>
 
             <div class="l-aside-sec ">
@@ -71,7 +85,10 @@
                 
             </div>
             <div class="l-aside-ter ">
-                <div class="imgshop " style="background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--dqEOrKBT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://thepracticaldev.s3.amazonaws.com/i/nmgcttm65v389g8cuozn.png')"></div>
+        
+                <div class="imgshop " style="background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--dqEOrKBT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://thepracticaldev.s3.amazonaws.com/i/nmgcttm65v389g8cuozn.png')">
+
+                </div>
                 <div class="imgshop-text">
                     <h1>Get The Daisy DEV Fall Jacket</h1>
                 </div>
@@ -85,11 +102,19 @@
 
         <section class="d-flex w-100 f-dir-column">
             <!--Post titles-->
+<<<<<<< HEAD
             <nav  class="d-flex w-100">
                 <div class= "w-50 d-flex a-items-center m-sides-10">
                     <h3>Posts</h3>
                 </div> 
                 <div class="w-50 d-flex a-items-center jc-flex-end m-sides-10">   
+=======
+            <nav  class="d-flex w-100" style="background-color:#EEF0F1">
+                <div class= "w-50 d-flex a-items-center">
+                    <h3>Posts</h3>
+                </div> 
+                <div class=" listbox w-50 d-flex a-items-center jc-flex-end">   
+>>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
                     <select name="Feed" id="">
                         <option value="A">
                             Feed
@@ -480,9 +505,62 @@
 
         </section>
 
-        <!--Aside Right-->
+        <!--rightAside-->
         <aside>
-
+            <div class="right-cards d-flex">
+                <header>
+                    <h3><b>Listings</b></h3>
+                    <a href="">See all</a>
+                </header>
+                <ul>
+                    <li>
+                        <div>
+                            <p>How to Test Services when You have the keys to the Castle</p>
+                            <span>
+                                event
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Build your landing page in style with Mark (landing Page template</p>
+                            <span>
+                                forsale
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Workflow to build Static Website - ebook (soon release)</p>
+                            <span>
+                                education
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>SigNoz - Open Source alternative to DataDOg</p>
+                            <span>
+                                products
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Meet iOS community with informal interviews</p>
+                            <span>
+                                misc
+                            </span>
+                        </div>
+                    </li>
+                    <li class="card-footer">
+                        <div>
+                            <p>Create a Listing</p>    
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            
         </aside>
     </main>
     <!--END Main-->
