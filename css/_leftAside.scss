@@ -1,17 +1,21 @@
 .l-aside{
     
     max-width: 50%;
+    min-width: 18%;
     min-height: 800px;
     background-color:$main-color ;
     font-family: $font-family ;
     /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
     display: none;
-    margin: 15px;
+    margin: 1px;
     .l-aside-prim{
         margin-top: 0px;
         width: 99%;
         min-height: 300px;
         background-color:$main-color ;
+        &:hover {  
+            color: $highlight-color;      
+        }
         
         
         ul{
@@ -23,8 +27,10 @@
             padding: 2px;
             margin-bottom: 5px; 
             text-decoration: none;
-            
             }
+            &:hover {  
+                color: $highlight-color;      
+            }    
             
         }
 
@@ -37,18 +43,24 @@
         margin-left: 10px;
         margin-right: auto;
         
+        
         ul{
             list-style: none;
             padding-inline-start: 10px;
+            
             a{
             display: block;
             color: black;
             margin-bottom: 5px;
-            
             margin-left: 10px;
             margin-right: auto; 
             text-decoration: none; 
-            }     
+            }  
+            &:hover { 
+                a{
+                    color: $highlight-color; 
+                }          
+            }   
         }
         .mytags{
             background-color: $main-color ;
@@ -81,9 +93,52 @@
             padding: 1rem;
         }    
     }
+
     
 
 }
+
+/* POSTINSIDE */
+.l-aside-post{
+    
+    min-height: 800px;
+    min-width: 15%;
+    background-color: $main-color ;
+    font-family: $font-family ;
+    
+    .l-aside-prim-post{
+        width: 20px;
+        height: 50%;
+        margin-left: 50%;
+        margin-right: auto;
+        
+        .heart{
+           
+            height: 50px;
+            margin-left: 48%;
+            margin-top: 70px;
+            margin-bottom: 1px;
+            
+        }
+        .icon{
+            
+            height: 50px;
+            margin-left: 48%;
+            margin-top: 30px;
+            margin-bottom: 1px;
+        }
+        span{
+            margin-left: 20%;   
+        } 
+        i{
+            margin-left: 20%;
+
+        }              
+    }
+   
+}
+
+
 
 /*Tablet version*/
 
@@ -111,4 +166,3 @@
 }
 
 
-    

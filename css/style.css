@@ -302,12 +302,13 @@ nav .righthead button:hover {
 
 .l-aside {
   max-width: 50%;
+  min-width: 18%;
   min-height: 800px;
   background-color: #EEF0F1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
   display: none;
-  margin: 15px;
+  margin: 1px;
 }
 
 .l-aside .l-aside-prim {
@@ -315,6 +316,10 @@ nav .righthead button:hover {
   width: 99%;
   min-height: 300px;
   background-color: #EEF0F1;
+}
+
+.l-aside .l-aside-prim:hover {
+  color: #3B49DF;
 }
 
 .l-aside .l-aside-prim ul {
@@ -329,6 +334,10 @@ nav .righthead button:hover {
   padding: 2px;
   margin-bottom: 5px;
   text-decoration: none;
+}
+
+.l-aside .l-aside-prim ul:hover {
+  color: #3B49DF;
 }
 
 .l-aside .l-aside-sec {
@@ -353,6 +362,10 @@ nav .righthead button:hover {
   margin-left: 10px;
   margin-right: auto;
   text-decoration: none;
+}
+
+.l-aside .l-aside-sec ul:hover a {
+  color: #3B49DF;
 }
 
 .l-aside .l-aside-sec .mytags {
@@ -387,6 +400,43 @@ nav .righthead button:hover {
 
 .l-aside .l-aside-ter .imgshop-text {
   padding: 1rem;
+}
+
+/* POSTINSIDE */
+.l-aside-post {
+  min-height: 800px;
+  min-width: 15%;
+  background-color: #EEF0F1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+.l-aside-post .l-aside-prim-post {
+  width: 20px;
+  height: 50%;
+  margin-left: 50%;
+  margin-right: auto;
+}
+
+.l-aside-post .l-aside-prim-post .heart {
+  height: 50px;
+  margin-left: 48%;
+  margin-top: 70px;
+  margin-bottom: 1px;
+}
+
+.l-aside-post .l-aside-prim-post .icon {
+  height: 50px;
+  margin-left: 48%;
+  margin-top: 30px;
+  margin-bottom: 1px;
+}
+
+.l-aside-post .l-aside-prim-post span {
+  margin-left: 20%;
+}
+
+.l-aside-post .l-aside-prim-post i {
+  margin-left: 20%;
 }
 
 /*Tablet version*/
