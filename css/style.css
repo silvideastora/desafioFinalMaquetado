@@ -25,6 +25,18 @@ body {
   width: 50%;
 }
 
+.m-10 {
+  margin: 10px;
+}
+
+.mt-10 {
+  margin-top: 10px;
+}
+
+.m-sides-10 {
+  margin: 0px 10px;
+}
+
 .a-items-center {
   -webkit-box-align: center;
       -ms-flex-align: center;
@@ -37,8 +49,19 @@ body {
           justify-content: flex-end;
 }
 
+.jc-space-b {
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
 .b-radius-100 {
   border-radius: 100%;
+}
+
+.gray-comments {
+  opacity: 0.5;
+  font-size: 1rem;
 }
 
 nav {
@@ -164,10 +187,38 @@ nav {
   margin-right: auto;
 }
 
+.main-card .main-text .card-post .user-card-post div i {
+  font-size: 1.7rem;
+  padding: 10px;
+}
+
+.main-card .main-text .card-post .card-title p, .main-card .main-text .card-post .card-title h3 {
+  margin-top: -5px;
+}
+
+.main-card .main-text .card-post .card-title p {
+  margin-top: -10px;
+}
+
 .card {
   background-color: white;
-  margin-top: 10px;
+  margin-top: 6px;
   border-top: solid 1px lightgray;
   border-bottom: solid 1px lightgray;
 }
+
+.save-button {
+  height: 30px;
+  height: 30px;
+}
+
+/*Tablet version*/
+@media screen and (min-width: 768px) {
+  .main-card .head-img {
+    padding: 0%;
+    height: 300px;
+  }
+}
+
+/*END Tablet version*/
 /*# sourceMappingURL=style.css.map */

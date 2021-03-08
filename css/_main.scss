@@ -19,13 +19,51 @@
             margin-left: auto;
             margin-right: auto;
         }
+        
+        .card-post{
+            .user-card-post{
+                div{
+                    i{
+                        font-size: 1.7rem;
+                        padding: 10px;
+                    }
+                }
+            }
+            .card-title{
+                p, h3{
+                    margin-top: -5px;
+                }
+                p{
+                    margin-top: -10px;
+                }
+            }
+        }
     }
 }
 
 .card{
     background-color: white;
-    margin-top: 10px;
+    margin-top: 6px;
     border-top: solid 1px lightgray;
     border-bottom: solid 1px lightgray;
 }
 
+.save-button{
+    height: 30px;
+    height: 30px;
+}
+
+
+/*Tablet version*/
+
+
+@media screen and (min-width: 768px){
+    .main-card{
+        .head-img{
+            padding: 0%;
+            height: 300px;
+        }
+    }
+}
+
+/*END Tablet version*/

@@ -20,13 +20,32 @@ body{
     width: 50%;
 }
 
+.m-10{
+    margin: 10px;
+}
+
+.mt-10{
+    margin-top: 10px;
+}
+.m-sides-10{
+    margin: 0px 10px;
+}
+
 .a-items-center{
     align-items: center;
 }
 .jc-flex-end{
     justify-content: flex-end;
 }
+.jc-space-b{
+    justify-content: space-between;
+}
 
 .b-radius-100{
     border-radius: 100%;
+}
+
+.gray-comments{
+    opacity: 0.5;
+    font-size: 1rem;
 }
