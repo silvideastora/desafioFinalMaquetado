@@ -71,11 +71,6 @@ body {
   border-radius: 100%;
 }
 
-.gray-comments {
-  opacity: 0.5;
-  font-size: 1rem;
-}
-
 .right-cards {
   background-color: #F9FAFA;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
@@ -92,6 +87,12 @@ body {
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   border-radius: 12px;
   margin: 15px 15px 15px 15px;
+}
+
+.right-cards .img-card {
+  height: 115px;
+  max-width: 100%;
+  border-radius: 6px;
 }
 
 .right-cards .card-footer {
@@ -145,7 +146,7 @@ body {
 }
 
 .right-cards ul li:hover {
-  background-color: #F9FAFA;
+  background-color: white;
 }
 
 .right-cards ul li:hover p {
@@ -154,6 +155,14 @@ body {
 
 .right-cards ul li span {
   font-size: smaller;
+}
+
+.right-cards ul li span button {
+  background-color: #3B49DF;
+  border-color: #3B49DF;
+  color: #F9FAFA;
+  border-radius: 5px;
+  font-size: 0.875rem;
 }
 
 nav {
@@ -197,6 +206,7 @@ nav .righthead img {
   width: 20%;
   min-height: 800px;
   background-color: #EEF0F1;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
   display: none;
 }
@@ -206,8 +216,6 @@ nav .righthead img {
   width: 99%;
   min-height: 300px;
   background-color: #EEF0F1;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .l-aside .l-aside-prim ul {
@@ -229,7 +237,7 @@ nav .righthead img {
   width: 90%;
   min-height: 250px;
   background-color: #EEF0F1;
-  margin-left: auto;
+  margin-left: 10px;
   margin-right: auto;
 }
 
@@ -250,7 +258,6 @@ nav .righthead img {
 
 .l-aside .l-aside-sec .mytags {
   background-color: #EEF0F1;
-  margin-left: auto;
   margin-right: auto;
   margin-bottom: 0px;
 }
