@@ -2,13 +2,19 @@ body {
   margin: 0%;
   padding: 0%;
   background-color: #EEF0F1;
-<<<<<<< HEAD
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 0.9rem;
+<<<<<<< HEAD
 =======
->>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
+  font-size: 0.9rem;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
 }
 
+/*.main{
+    margin-left: 80px;
+    margin-right: 80px;
+    
+
+}*/
 .f-dir-column {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
@@ -68,6 +74,150 @@ body {
   border-radius: 100%;
 }
 
+<<<<<<< HEAD
+#right-aside {
+  display: none;
+}
+
+#right-aside .right-cards {
+=======
+.gray-comments {
+  opacity: 0.5;
+  font-size: 1rem;
+}
+
+.right-cards {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
+  background-color: #F9FAFA;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 12px;
+  margin: 15px 15px 15px 15px;
+}
+
+<<<<<<< HEAD
+#right-aside .right-cards .card-footer {
+=======
+.right-cards .card-footer {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
+  text-align: center;
+  border-bottom: none;
+}
+
+<<<<<<< HEAD
+#right-aside .right-cards header {
+=======
+.right-cards header {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
+  background-color: #F9FAFA;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-bottom: 1px solid #eef0f1;
+  padding: 12px 16px;
+  border-radius: 12px;
+}
+
+<<<<<<< HEAD
+#right-aside .right-cards header a {
+  color: #363D44;
+}
+
+#right-aside .right-cards header:hover a {
+  color: #3B49DF;
+}
+
+#right-aside .right-cards a {
+  text-decoration: none;
+}
+
+#right-aside .right-cards ul {
+=======
+.right-cards header a {
+  color: #363D44;
+}
+
+.right-cards header:hover a {
+  color: #3B49DF;
+}
+
+.right-cards a {
+  text-decoration: none;
+}
+
+.right-cards ul {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
+  list-style: none;
+  padding: 0px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: block;
+}
+
+<<<<<<< HEAD
+#right-aside .right-cards ul li {
+=======
+.right-cards ul li {
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
+  border-bottom: 1px solid #eef0f1;
+  padding: 8px 20px;
+}
+
+<<<<<<< HEAD
+#right-aside .right-cards ul li:hover {
+  background-color: #F9FAFA;
+}
+
+#right-aside .right-cards ul li:hover p {
+  color: #3B49DF;
+}
+
+#right-aside .right-cards ul li span {
+  font-size: smaller;
+}
+
+/*Desktop version*/
+@media screen and (min-width: 1024px) {
+  #right-aside {
+    display: block;
+  }
+}
+
+/*END Desktop version*/
+=======
+.right-cards ul li:hover {
+  background-color: #F9FAFA;
+}
+
+.right-cards ul li:hover p {
+  color: #3B49DF;
+}
+
+.right-cards ul li span {
+  font-size: smaller;
+}
+
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
 nav {
   height: 70px;
   background-color: white;
@@ -110,9 +260,9 @@ nav .righthead img {
   min-height: 800px;
   background-color: #EEF0F1;
 <<<<<<< HEAD
-=======
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
->>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
+=======
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   /*Se pone display none hasta que crezca a tablet se muestre, no antes*/
   display: none;
 }
@@ -123,10 +273,10 @@ nav .righthead img {
   min-height: 300px;
   background-color: #EEF0F1;
 <<<<<<< HEAD
+=======
   margin-left: auto;
   margin-right: auto;
-=======
->>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
 }
 
 .l-aside .l-aside-prim ul {
@@ -149,10 +299,10 @@ nav .righthead img {
   min-height: 250px;
   background-color: #EEF0F1;
 <<<<<<< HEAD
-  margin-left: auto;
-=======
   margin-left: 10px;
->>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
+=======
+  margin-left: auto;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   margin-right: auto;
 }
 
@@ -174,9 +324,9 @@ nav .righthead img {
 .l-aside .l-aside-sec .mytags {
   background-color: #EEF0F1;
 <<<<<<< HEAD
-  margin-left: auto;
 =======
->>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
+  margin-left: auto;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
   margin-right: auto;
   margin-bottom: 0px;
 }
@@ -219,6 +369,7 @@ nav .righthead img {
 /*END Tablet version*/
 /*Card Principal*/
 .main-card {
+  font-size: 0.9rem;
   background: white;
   border-top: solid 1px lightgray;
   border-bottom: solid 1px lightgray;
@@ -234,7 +385,7 @@ nav .righthead img {
 }
 
 .main-card .main-text .card-comment {
-  background-color: lightgray;
+  background-color: #F7F7F7;
   width: 98%;
   margin-left: auto;
   margin-right: auto;
@@ -305,11 +456,8 @@ nav .righthead img {
 
 /*END Tablet version*/
 footer {
-<<<<<<< HEAD
   margin-top: 30px;
   display: none;
-=======
->>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
   background-color: #D8DBDF;
   position: relative;
   -webkit-box-sizing: border-box;
@@ -363,7 +511,6 @@ footer div p b {
   fill: currentColor;
   color: #363D44;
 }
-<<<<<<< HEAD
 
 /*Tablet version*/
 @media screen and (min-width: 768px) {
@@ -373,6 +520,4 @@ footer div p b {
 }
 
 /*END Tablet version*/
-=======
->>>>>>> 5dde6c54f1927175ed699b99377dd273e35051a6
 /*# sourceMappingURL=style.css.map */

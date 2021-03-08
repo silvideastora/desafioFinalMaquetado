@@ -1,3 +1,10 @@
+<<<<<<< HEAD
+#right-aside{
+    display: none;
+    .right-cards{
+        background-color: $asideRight-bg-color;
+        font-family: $font-family;
+=======
 .right-cards{
     background-color: $asideRight-bg-color;
     font-family: $font-family;
@@ -19,36 +26,61 @@
 
     header{
         background-color: #F9FAFA;
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
         display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        border-bottom: 1px solid #eef0f1;
-        padding: 12px 16px;
-        border-radius: 12px;
-        a {
-            color: $inactive-gray;
-        }
-        &:hover{
-            a{
-                color: $highlight-color;   
-            }    
-        }
-
-    }
-    a{
-        text-decoration: none;
-
-    }
-    ul{
-        list-style: none;
-        padding: 0px;
+        flex-direction: column;
         box-sizing: border-box;
-        display: block;
-        li{
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        border-radius: 12px;
+        margin: 15px 15px 15px 15px;
+        .card-footer{
+            text-align: center;
+            border-bottom: none;
+        }
+    
+        header{
+            background-color: #F9FAFA;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
             border-bottom: 1px solid #eef0f1;
-            padding:8px 20px;
+            padding: 12px 16px;
+            border-radius: 12px;
+            a {
+                color: $inactive-gray;
+            }
             &:hover{
+<<<<<<< HEAD
+                a{
+                    color: $highlight-color;   
+                }    
+            }
+    
+        }
+        a{
+            text-decoration: none;
+    
+        }
+        ul{
+            list-style: none;
+            padding: 0px;
+            box-sizing: border-box;
+            display: block;
+            li{
+                border-bottom: 1px solid #eef0f1;
+                padding:8px 20px;
+                &:hover{
+                    background-color: #F9FAFA;
+                    p{
+                    color: $highlight-color;
+                    }
+                }
+                span{
+                    font-size: smaller;
+                }
+                
+=======
                 background-color: white;
                 p{
                 color: $highlight-color;
@@ -64,10 +96,24 @@
                     font-size: 0.875rem;
 
                 }
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
             }
-            
         }
+    
     }
-
 }
 
+
+/*Desktop version*/
+
+
+@media screen and (min-width: 1024px){
+    #right-aside{
+        display: block;
+    }
+}
+
+<<<<<<< HEAD
+/*END Desktop version*/
+=======
+>>>>>>> d2fe202c0d6707ccbe42df855f4d09a6582ff0a0
