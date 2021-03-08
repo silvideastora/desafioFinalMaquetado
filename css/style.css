@@ -3,7 +3,6 @@ body {
   padding: 0%;
   background-color: #EEF0F1;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  font-size: 0.9rem;
 }
 
 /*.main{
@@ -71,7 +70,11 @@ body {
   border-radius: 100%;
 }
 
-.right-cards {
+#right-aside {
+  display: none;
+}
+
+#right-aside .right-cards {
   background-color: #F9FAFA;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
   display: -webkit-box;
@@ -89,18 +92,18 @@ body {
   margin: 15px 15px 15px 15px;
 }
 
-.right-cards .img-card {
+#right-aside .right-cards .img-card {
   height: 115px;
   max-width: 100%;
   border-radius: 6px;
 }
 
-.right-cards .card-footer {
+#right-aside .right-cards .card-footer {
   text-align: center;
   border-bottom: none;
 }
 
-.right-cards header {
+#right-aside .right-cards header {
   background-color: #F9FAFA;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -120,19 +123,19 @@ body {
   border-radius: 12px;
 }
 
-.right-cards header a {
+#right-aside .right-cards header a {
   color: #363D44;
 }
 
-.right-cards header:hover a {
+#right-aside .right-cards header:hover a {
   color: #3B49DF;
 }
 
-.right-cards a {
+#right-aside .right-cards a {
   text-decoration: none;
 }
 
-.right-cards ul {
+#right-aside .right-cards ul {
   list-style: none;
   padding: 0px;
   -webkit-box-sizing: border-box;
@@ -140,31 +143,31 @@ body {
   display: block;
 }
 
-.right-cards ul li {
+#right-aside .right-cards ul li {
   border-bottom: 1px solid #eef0f1;
   padding: 8px 20px;
 }
 
-.right-cards ul li:hover {
-  background-color: white;
+#right-aside .right-cards ul li:hover {
+  background-color: #F9FAFA;
 }
 
-.right-cards ul li:hover p {
+#right-aside .right-cards ul li:hover p {
   color: #3B49DF;
 }
 
-.right-cards ul li span {
+#right-aside .right-cards ul li span {
   font-size: smaller;
 }
 
-.right-cards ul li span button {
-  background-color: #3B49DF;
-  border-color: #3B49DF;
-  color: #F9FAFA;
-  border-radius: 5px;
-  font-size: 0.875rem;
+/*Desktop version*/
+@media screen and (min-width: 1024px) {
+  #right-aside {
+    display: block;
+  }
 }
 
+/*END Desktop version*/
 nav {
   height: 70px;
   background-color: white;
@@ -300,6 +303,7 @@ nav .righthead img {
 /*END Tablet version*/
 /*Card Principal*/
 .main-card {
+  font-size: 0.9rem;
   background: white;
   border-top: solid 1px lightgray;
   border-bottom: solid 1px lightgray;
@@ -315,7 +319,7 @@ nav .righthead img {
 }
 
 .main-card .main-text .card-comment {
-  background-color: lightgray;
+  background-color: #F7F7F7;
   width: 98%;
   margin-left: auto;
   margin-right: auto;
