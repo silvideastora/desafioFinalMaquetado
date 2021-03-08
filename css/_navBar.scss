@@ -96,7 +96,20 @@ nav{
     #user-nav-img{
         margin-right: 6vw;
     }
+
+    #logo-nav-img{
+        margin-left: 6vw;
+    }
     
 }
 
 /*END Desktop version*/
+
+@media screen and (min-width: 1300px){
+    #user-nav-img{
+        margin-right: 14vw;
+    }
+    #logo-nav-img{
+        margin-left: 14vw;
+    }
+}

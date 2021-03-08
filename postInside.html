@@ -1,0 +1,695 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEV Community 🧑‍💻👩‍💻</title>
+
+    <!--Favicon-->
+    <link  rel="icon"   href="assets/images/favicon.ico" type="image/png" />
+
+    <!--Estilos-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="css/style.css">
+    
+
+</head>
+
+<!-- Lalo-->
+<!-- Silvi-->
+<!--Mario-->
+
+<body>
+
+    <!--header-->
+    <header>
+        <nav  class="d-flex w-100" >
+            <div class= " lefthead w-100 d-flex a-items-center"> 
+                <i class="fas fa-bars ml-20"></i>
+                <img src="assets/icons/devIcon.svg" alt="" style="height: 50px; margin-left: 6vw;" class="ml-20 mr-20">
+                <input style="width: 300px;" class="d-none" id="search-bar" type="text" placeholder="Search..">
+            </div>
+            <div class=" righthead w-50 d-flex a-items-center jc-flex-end" id="profile-img">
+                <button class="m-sides-10 d-none" id="search-button">Write a post</button>
+                <i class="fas fa-search mr-20" id="search-icon"></i>
+                <img src="assets/icons/notifications.svg" class="mr-20" alt="">
+                <i class="far fa-bell mr-20"></i>
+                <img id="user-nav-img" class="b-radius-100 mr-20" src="assets/images/usuarioLogNav.webp" alt="" style="height: 40px; ">
+                
+                
+            </div>
+        </nav>  
+    </header>
+    <!--END Header-->
+
+    <!--Main-->
+    <main class=" main d-flex">
+
+            
+        <!--Aside Left-->
+        <aside class="l-aside">
+            <div class="l-aside-prim ">
+                <ul>
+                    <li><a href="#"><img src="assets/icons/homeIcon.svg">  Home</a></li>
+                    <li><a href="#"><img src="assets/icons/readingListIcon.svg">  Reading list</a></li>
+                    <li><a href="#"><span class="crayons-icon crayons-icon--default">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 44 44" width="24" height="24" class="">
+                            <g class="nc-icon-wrapper">
+                                <path fill="#FFD983" d="M36 4H14a4 4 0 00-4 4v24H8a4 4 0 000 8h24a4 4 0 004-4V12a4 4 0 000-8z" class=""></path>
+                                <path fill="#E39F3D" d="M12 14h24v-2H14l-2-1z" class=""></path>
+                                <path fill="#FFE8B6" d="M14 4a4 4 0 00-4 4v24.555A3.955 3.955 0 008 32a4 4 0 104 4V11.445c.59.344 1.268.555 2 .555a4 4 0 000-8z" class=""></path>
+                                <path fill="#C1694F" d="M16 8a2 2 0 11-4.001-.001A2 2 0 0116 8m-6 28a2 2 0 11-4.001-.001A2 2 0 0110 36m24-17a1 1 0 01-1 1H15a1 1 0 010-2h18a1 1 0 011 1m0 4a1 1 0 01-1 1H15a1 1 0 110-2h18a1 1 0 011 1m0 4a1 1 0 01-1 1H15a1 1 0 110-2h18a1 1 0 011 1m0 4a1 1 0 01-1 1H15a1 1 0 110-2h18a1 1 0 011 1" class=""></path>
+                            </g>
+                        </svg>           
+                    </span>Listings</a></li>
+
+
+
+                    <li><a href="#"><img src="assets/icons/podcastIcon.svg">  Podcasts</a></li>
+                    <li><a href="#"><img src="assets/icons/videosIcon.svg">  Videos</a></li>
+                    <li><a href="#"><img src="assets/icons/tagsIcon.svg">  Tags</a></li>
+                    <li style="margin-top: 10px; margin-left: 30px;">More...</a></li>
+                </ul>
+                
+            </div>
+
+            <div class="l-aside-sec ">
+
+                <div class="mytags d-flex" >
+                    <div class= "mytags">
+                        <h3>My Tags</h3>
+                    </div> 
+
+                    <div class="d-flex  " style="margin-left: auto; margin-right: 10px;">
+                        <img src="assets/icons/following_tags.svg">
+                    </div>
+                </div>
+
+                <ul>
+                    <li><a href="#">#Javascript</a></li>
+                    <li><a href="#">#python</a></li>
+                    <li><a href="#">#css</a></li>
+                    <li><a href="#">#git</a></li>
+                    <li><a href="#">#vscode</a></li>
+                    <li><a href="#">#bash</a></li>
+                </ul>
+                
+            </div>
+            <div class="l-aside-ter ">
+        
+                <div class="imgshop " style="background-image: url('https://res.cloudinary.com/practicaldev/image/fetch/s--dqEOrKBT--/c_limit%2Cf_auto%2Cfl_progressive%2Cq_auto%2Cw_350/https://thepracticaldev.s3.amazonaws.com/i/nmgcttm65v389g8cuozn.png')">
+
+                </div>
+                <div class="imgshop-text">
+                    <h1>Get The Daisy DEV Fall Jacket</h1>
+                </div>
+                
+                
+            </div>
+
+
+
+        </aside>
+
+        <section class="d-flex w-100 f-dir-column">
+            <!--Post titles-->
+            <nav  class="d-flex w-100" style="background-color:#EEF0F1">
+                <div class= " d-flex a-items-center m-sides-10">
+                    <h3>Posts</h3>
+                </div> 
+                <div class=" listbox w-100 d-flex a-items-center jc-flex-end m-sides-10">
+                    <!--Segunda navbar-->
+                    <div id="second-navbar" class="d-none">
+                        <button >Feed</button>
+                        <button >Week</button>
+                        <button >Month</button>
+                        <button >Year</button>
+                        <button >Infinity</button>
+                        
+                    </div>
+                    
+                    
+                    <select class="select-button" name="Feed">
+                        <option value="A">
+                            Feed
+                        </option>
+                        <option value="B">
+                            Week
+                        </option>
+                        <option value="C">
+                            Month
+                        </option>
+                        <option value="D">
+                            Year
+                        </option>
+                        <option value="E">
+                            Infinity
+                        </option>
+                        <option value="F">
+                            Latest
+                        </option>
+                    </select>
+                </div>            
+            </nav>
+            <!--Cards-->
+
+            <div class="main-card d-flex w-100 f-dir-column">
+                <div class="head-img"></div>
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class="time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Nevertheless, Jacque Coded, Even When She Wanted to Quit</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center">
+                            <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    <div class="card-comment d-flex">
+                        <div>
+                            
+                            <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                        </div>
+                        <div>
+                            <p>Ibrahim Cesar <span class="time-text">2 days ago</span></span> 
+                                <br>
+                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi suscipit totam pariatur aliquam perferendis quasi corporis doloribus dolor dignissimos esse excepturi porro earum enim id eius reprehenderit doloremque, fugit ratione beatae veritatis unde iusto saepe? Doloribus, quia accusantium? In molestias tempora, autem eum dignissimos quisquam facere libero aperiam adipisci omnis?
+                                <br><br>
+                                <span class="time-text">See all 39 comments</span>
+                            </p>
+                            
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+
+
+
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Which programming languages should you learn?</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Nevertheless, Alba Silvente 💃🏼 Coded in 2021!</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            <!--Normal posts-->
+            <div class="main-card d-flex w-100 f-dir-column mt-10">
+                <div class="main-text">
+                    <div class="card-post">
+                        <!--User post that comment-->
+                        <div class="user-card-post d-flex">
+                            
+                            <div class="d-flex mt-10">
+                                
+                                <img class="post-img m-10" src="assets/images/avatarPost.jpg" alt="">
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <p>
+                                    Brandon Roberts                                    <br>
+                                    <span class=" time-text">Mar 5 (2 days ago)</span><br>
+                                    <span class="post-title">Lorem ipsum dolor sit.</span>
+                                    <br>
+                                    <span class="time-text">#Javascript  #Technology  #Business</span>
+                                    <br>
+                                </p>
+                            
+    
+                            </div>
+                        </div>
+
+                        <div class="d-flex jc-space-b ml-40">
+                            <div class="d-flex a-items-center" >
+                                <i class="far fa-heart m-10"></i>
+                                    <span>76 <span class="reactions">reactions</span> </span>
+                                <i class="far fa-comment m-10"></i>
+                                    <span>39 <span class="reactions">comments</span> </span>
+                            </div>
+                            <div class="d-flex a-items-center">
+                                <span class="time-text">3 min read </span>
+                                <button class="save-button m-10">Save</button>
+                            </div>
+                        </div>
+                        
+                    </div>
+                    
+                </div>
+            </div>
+            
+            
+
+
+        </section>
+
+        <!--rightAside-->
+        <aside id="right-aside">
+            <div class="right-cards d-flex">
+                <img src="assets/images/sheCoded.png" alt="" class="img-card">
+                <header> <!--Creo el header-->
+                    <h3><b>Listings</b></h3>
+                    <a href="">See all</a>
+                </header>
+                <ul> <!--Creo la Lista-->
+                    <li>
+                        <div>
+                            <p>How to Test Services when You have the keys to the Castle</p>
+                            <span>
+                                event
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Build your landing page in style with Mark (landing Page template</p>
+                            <span>
+                                forsale
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Workflow to build Static Website - ebook (soon release)</p>
+                            <span>
+                                education
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>SigNoz - Open Source alternative to DataDOg</p>
+                            <span>
+                                products
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Meet iOS community with informal interviews</p>
+                            <span>
+                                misc
+                            </span>
+                        </div>
+                    </li>
+                    <li class="card-footer">
+                        <div>
+                            <p>Create a Listing</p>    
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="right-cards d-flex">
+                <header>
+                    <h3><b>#news</b></h3>
+                </header>
+                <ul>
+                    <li>
+                        <div>
+                            <p>I've Joined Forem as a Principal SRE</p>
+                            <span>
+                                <button>
+                                    New
+                                </button>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Game Dev Digest - Issue #84 - Learning, Tips, and Free Courses</p>
+                            <span>
+                                <button>
+                                    New
+                                </button>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>Continuous Feedback for Developers</p>
+                            <span>
+                                <button>
+                                    New
+                                </button>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>You can now get voice and video calls with Whatsapp Desktop</p>
+                            <span>
+                                <button>
+                                    New
+                                </button>
+                            </span>
+                        </div>
+                    </li>
+                    <li>
+                        <div>
+                            <p>PyScaffold 4.0 is here</p>
+                            <span>
+                                <button>
+                                    New
+                                </button>
+                            </span>
+                        </div>
+                    </li>
+                    
+                </ul>
+            </div>
+            <div class="right-cards d-flex">
+                <header>
+                    <h3><b>#help</b></h3>
+                </header>
+                <ul>
+                    <li>
+                        <div>
+                            <p>How to install ImageMagick </p>
+                            <span>
+                                1 comment
+                            </span>
+                        </div>
+                    </li>
+                    
+                    
+                </ul>
+            </div>
+        </aside>
+    </main>
+    <!--END Main-->
+
+    <!--Footer-->
+    <footer>
+        <div id="first-div" >
+            <a href="">Home</a>
+            <a href="">Reading List</a>
+            <a href="">Listings</a>
+            <a href="">Podcasts</a>
+            <a href="">Videos</a>
+            <a href="">Tags</a>
+            <a href="">Code of Conduct</a>
+            <a href="">FAQ</a>
+        </div>
+        <div>
+            <a href="">DEV Shop</a>
+            <a href="">Sponsors</a>
+            <a href="">About</a>
+            <a href="">Privacy policy</a>
+            <a href="">Terms of use</a>
+            <a href="">Contact</a>
+            <a href="">Write a post</a>
+        </div>
+        <div class="social-media">
+            <img src="assets/icons/twitter.svg" alt="">
+            <img src="assets/icons/facebook.svg" alt="">
+            <img src="assets/icons/github.svg" alt="">
+            <img src="assets/icons/instagram.svg" alt="">
+            <img src="assets/icons/twitch.svg" alt="">
+        </div>
+        <div>
+            <p><b>DEV Community</b> – A constructive and inclusive social network for software developers. With you every step of your journey.</p>
+        </div>
+        <div>
+            <p>Built on <b>Forem</b> — the <b>open source</b> software that powers <b>DEV</b> and other inclusive communities.</p>
+        </div>
+        <div><p>Made with love and <b>Ruby on Rails</b>. DEV Community © 2016 - 2021.</p></div>
+        <div>
+            <img src="assets/images/hojita.svg" alt="">
+        </div>
+        <img class="perezoso" src="assets/images/footerPerezoso.png" alt="">
+    </footer>
+
+
+</body>
+</html>
