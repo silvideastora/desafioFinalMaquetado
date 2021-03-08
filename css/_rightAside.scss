@@ -1,6 +1,8 @@
 #right-aside{
     display: none;
+    cursor: pointer;
     .right-cards{
+        
         background-color: $asideRight-bg-color;
         font-family: $font-family;
         display: flex;
@@ -87,6 +89,10 @@
 /*END Desktop version*/
 
 @media screen and (min-width: 1300px){
+
+    .right-cards{
+        min-width: 300px;
+    }
     #right-aside{
         margin-right: 12vw;
     }

@@ -88,6 +88,7 @@ body {
 
 #right-aside {
   display: none;
+  cursor: pointer;
 }
 
 #right-aside .right-cards {
@@ -194,6 +195,9 @@ body {
 
 /*END Desktop version*/
 @media screen and (min-width: 1300px) {
+  .right-cards {
+    min-width: 300px;
+  }
   #right-aside {
     margin-right: 12vw;
   }
