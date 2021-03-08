@@ -1,6 +1,8 @@
 #right-aside{
     display: none;
+    cursor: pointer;
     .right-cards{
+        min-width: 300px;
         background-color: $asideRight-bg-color;
         font-family: $font-family;
         display: flex;
