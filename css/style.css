@@ -336,7 +336,13 @@ nav .righthead button:hover {
   text-decoration: none;
 }
 
-.l-aside .l-aside-prim ul:hover {
+.l-aside .l-aside-prim ul a:hover {
+  color: #3B49DF;
+  background-color: #E2E4E6;
+  border-radius: 5px;
+}
+
+.l-aside .l-aside-prim ul li:hover {
   color: #3B49DF;
 }
 
@@ -364,8 +370,10 @@ nav .righthead button:hover {
   text-decoration: none;
 }
 
-.l-aside .l-aside-sec ul:hover a {
+.l-aside .l-aside-sec ul a:hover {
   color: #3B49DF;
+  background-color: #E2E4E6;
+  border-radius: 5px;
 }
 
 .l-aside .l-aside-sec .mytags {
@@ -422,6 +430,13 @@ nav .righthead button:hover {
   margin-left: 48%;
   margin-top: 70px;
   margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.l-aside-post .l-aside-prim-post .heart img:hover {
+  border: 1px solid red;
+  border-radius: 100%;
+  background: #cf5069;
 }
 
 .l-aside-post .l-aside-prim-post .icon {
@@ -429,6 +444,47 @@ nav .righthead button:hover {
   margin-left: 48%;
   margin-top: 30px;
   margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.l-aside-post .l-aside-prim-post .icon img:hover {
+  border: 1px solid #f4f4f4;
+  border-radius: 100%;
+  background: #f4f4f4;
+  background: -webkit-gradient(linear, left top, right top, from(#f4f4f4), color-stop(0%, rgba(33, 252, 223, 0.482528)));
+  background: linear-gradient(90deg, #f4f4f4 0%, rgba(33, 252, 223, 0.482528) 0%);
+}
+
+.l-aside-post .l-aside-prim-post .saved {
+  height: 50px;
+  margin-left: 48%;
+  margin-top: 30px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.l-aside-post .l-aside-prim-post .saved img:hover {
+  border: 1px solid #f4f4f4;
+  border-radius: 100%;
+  background: #f4f4f4;
+  background: -webkit-gradient(linear, left top, right top, from(#f4f4f4), color-stop(0%, rgba(33, 104, 252, 0.482528)));
+  background: linear-gradient(90deg, #f4f4f4 0%, rgba(33, 104, 252, 0.482528) 0%);
+}
+
+.l-aside-post .l-aside-prim-post .ellipsis {
+  height: 50px;
+  margin-left: 48%;
+  margin-top: 30px;
+  margin-bottom: 1px;
+  cursor: pointer;
+}
+
+.l-aside-post .l-aside-prim-post .ellipsis i:hover {
+  border: 1px solid  grey;
+  border-radius: 100%;
+  background: #f4f4f4;
+  background: -webkit-gradient(linear, left top, right top, from(#f4f4f4), color-stop(0%, rgba(30, 36, 48, 0.266842)));
+  background: linear-gradient(90deg, #f4f4f4 0%, rgba(30, 36, 48, 0.266842) 0%);
 }
 
 .l-aside-post .l-aside-prim-post span {

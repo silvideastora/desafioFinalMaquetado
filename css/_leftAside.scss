@@ -28,9 +28,14 @@
             margin-bottom: 5px; 
             text-decoration: none;
             }
-            &:hover {  
-                color: $highlight-color;      
-            }    
+            a:hover { 
+                color: $highlight-color;
+                background-color: $asideLeft-active-gray ; 
+                border-radius: 5px;          
+            }
+           li:hover { 
+                color: $highlight-color;           
+            }     
             
         }
 
@@ -56,10 +61,12 @@
             margin-right: auto; 
             text-decoration: none; 
             }  
-            &:hover { 
-                a{
-                    color: $highlight-color; 
-                }          
+            a:hover { 
+            
+                 color: $highlight-color; 
+                 background-color: $asideLeft-active-gray ; 
+                 border-radius: 5px;
+                      
             }   
         }
         .mytags{
@@ -118,7 +125,14 @@
             margin-left: 48%;
             margin-top: 70px;
             margin-bottom: 1px;
-            
+            cursor: pointer;
+            img:hover{
+                border: 1px solid red;
+                border-radius: 100%;
+                background: rgb(207,80,105);
+                
+            }
+
         }
         .icon{
             
@@ -126,6 +140,43 @@
             margin-left: 48%;
             margin-top: 30px;
             margin-bottom: 1px;
+            cursor: pointer;
+            img:hover{
+                border: 1px solid  rgb(244,244,244);
+                border-radius: 100%;
+                background: rgb(244,244,244);
+                background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(33,252,223,0.48252804539784666) 0%);
+                
+            }
+        }
+        .saved{
+            
+            height: 50px;
+            margin-left: 48%;
+            margin-top: 30px;
+            margin-bottom: 1px;
+            cursor: pointer;
+            img:hover{
+                border: 1px solid  rgb(244,244,244);
+                border-radius: 100%;
+                background: rgb(244,244,244);
+                background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(33,104,252,0.48252804539784666) 0%);
+                
+            }
+        }
+        .ellipsis{
+            
+            height: 50px;
+            margin-left: 48%;
+            margin-top: 30px;
+            margin-bottom: 1px;
+            cursor: pointer;
+            i:hover{
+                border: 1px solid  grey;
+                border-radius: 100%;
+                background: rgb(244,244,244);
+                background: linear-gradient(90deg, rgba(244,244,244,1) 0%, rgba(30,36,48,0.26684177088804273) 0%);
+            }
         }
         span{
             margin-left: 20%;   
