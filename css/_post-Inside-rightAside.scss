@@ -1,0 +1,90 @@
+.avatarR{   
+    span{
+        display: inline-block;
+        width: 48px;
+        height: 48px;
+        margin: 15px 15px;
+
+        img{
+            width: 48px;
+            height: 48px;
+            border-radius: 20px;
+            top: -15px;
+            position: relative;
+        }
+}
+}
+
+.right-cards {
+    position: sticky;
+    .black-header {
+        width: 100%;
+        height: 36px;
+        background-color: black;
+        border-radius: 5px;
+        display: inline-block;
+    }
+    section{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        position: relative;
+        top: -15px;
+        height: 40px;
+    }
+
+    .inside-header > p {
+        padding: 0px 15px;
+        justify-content: center;
+        align-items: center;
+        line-height: 1.5rem;
+    }
+
+    .button-inside {
+        background-color: $button-inside-color;
+        color: white;
+        margin: 5px 15px;
+        box-sizing: border-box;
+        border-radius: 5px;
+        height: 40px;
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    span{
+        padding: 0px 15px;
+
+        label{
+            font-size: smaller;
+            color: $inactive-gray-light;
+    }
+}
+}
+.trending{
+    header {
+        span {
+            color: $button-inside-color;
+        }
+    }
+    div {
+        padding: 0px 15px;
+        img {
+            width: 25px;
+            height: 25px;
+            border-radius: 20px;
+        }
+        p {
+            display: inline;
+            margin-bottom: 20px;
+            line-height: 42px;
+           
+            &:hover{
+                 color: $highlight-color;      
+            }
+        }
+        span {
+            margin-left: 14px;
+            color:$inactive-gray-light ;
+        }
+    }
+    
+}

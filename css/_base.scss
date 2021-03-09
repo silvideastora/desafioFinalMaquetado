@@ -13,11 +13,15 @@ body{
 }*/
 
 .f-dir-column{
-    flex-direction: column;
+    flex-direction: column!important;
 }
 
 .d-flex{
     display: flex;
+}
+
+.d-block{
+    display: block;
 }
 
 .d-none{
@@ -71,4 +75,8 @@ body{
 .b-radius-100{
     border-radius: 100%;
     
+}
+
+.padding-0 {
+    padding: 0!important;
 }
